@@ -8,19 +8,11 @@
 **/
 void _print_rev_recursion(char *s)
 {
-    if (*s == '\0')
-    {
-        return;
-    }
-    _print_rev_recursion(s + 1);
-    putchar(*s);
-}
-
-int main(void)
+if (*s == '\0')
 {
-    char str[] = "Colton Walker";
-    _print_rev_recursion(str);
-    putchar('\n');
-
-    return 0;
+return;
+}
+_print_rev_recursion(s + 1);
+s--;
+_putchar(*s);
 }
