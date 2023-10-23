@@ -15,4 +15,12 @@ s++;
 _print_rev_recursion(s + 1);
 s--;
 _putchar(*s);
+int main(void)
+{
+char str[] = "Colton Walker";
+_print_rev_recursion(str);
+
+putchar('\n');
+
+return (0);
 }
