@@ -4,8 +4,7 @@
  * factorial - gets factorial of n
  * @n: integer
  *
- * Return : on success 1
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: The factorial of the given number. Returns -1 if n is negative.
 */
 int factorial(int n)
 {
