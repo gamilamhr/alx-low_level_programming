@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * factorial - get factorial n
  *
@@ -10,5 +10,5 @@ int factorial(int n)
 		return  (-1);
 	if (n == 0)
 		return  (1);
-	return(n * factorial (n - 1));
+	return (n * factorial(n - 1));
 }
