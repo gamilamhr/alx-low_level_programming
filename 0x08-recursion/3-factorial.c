@@ -1,9 +1,12 @@
 #include "main.h"
+
 /**
- * factorial - get factorial n
+ * factorial - gets factorial of n
+ * @n: integer
  *
  * Return : on success 1
-**/
+ * On error, -1 is returned, and errno is set appropriately.
+*/
 int factorial(int n)
 {
 	if (n < 0)
